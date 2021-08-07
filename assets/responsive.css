@@ -46,4 +46,7 @@
     .hide-on-mobile{
         display: none;
     }
+    .header-with-search{
+        justify-content: space-between;
+    }
 }
