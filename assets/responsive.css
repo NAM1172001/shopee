@@ -49,4 +49,6 @@
     .header-with-search{
         justify-content: space-between;
     }
+    .header__logo{
+        width: unset;
 }
