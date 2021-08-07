@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
-     <link rel="stylesheet" href="./assets/grid.css">
-     <link rel="stylesheet" href="./assets/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="icon" href="https://vn-test-11.slatic.net/p/68a3c135bd49ae699e90a4da955b7ffb.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+<link rel="stylesheet" href="./assets/grid.css">
+<link rel="stylesheet" href="./assets/responsive.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="icon" href="https://vn-test-11.slatic.net/p/68a3c135bd49ae699e90a4da955b7ffb.png" type="image/x-icon" />
+<link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+    
 </head>
 <body>
     <!-- BEM -->
@@ -127,17 +126,15 @@
                     <!-- Làm tìm kiếm -->
                     <div class="header-with-search">
                         <label for="mobile-search-ckeckbox" class="header__mobile-search">
-    <i class="header__mobile-search-icon fas fa-search"></i>
-</label>
-                        
-                        
-                        
+                            <i class="header__mobile-search-icon fas fa-search"></i>
+                        </label>
                       <div class="header__logo hide-on-tablet">
                       <a href="https://www.lazada.vn/?spm=a2o4n.home.header.dhome.519d6afeNrfgE6" class="header__logo-link">
                         <img  class="header__logo-img" src="./assets/lazada.png" alt="Mua sắm online Lazada.vn Logo">
                       </a>
                       </div>
-                      <div class="header__search hide-on-mobile">
+                     <input type="checkbox" hidden id="mobile-search-ckeckbox" class="header__search-ckeckbox">
+                      <div class="header__search">
                           <div class="header__search-input-wrap">
 
                               <input type="text" class="header__search-input" placeholder="Tìm kiếm trên lazada">
@@ -279,8 +276,8 @@
         </header>
         <div class="app__container">
                <div class="grid wide">
-                <div class="grid__row app__content">
-                    <div class="grid__column-2">
+                <div class="row sm-gutter  app__content">
+                    <div class="col l-2 m-0 c-0">
                     <div class="category">
                         <h3 class="category__heading">
                             <i class="category__heading-icon fas fa-list"></i>
@@ -299,7 +296,7 @@
                         </ul>
                     </div>
                     </div>
-                    <div class="grid__column-10">
+                    <div class="col l-10 m-12 c-12">
                              <div class="home-filter hide-on-mobile-tablet">
                                  <span class="home-filter__label">Sắp xếp theo</span>
                                  <button class="home-filter__btn btn">Phổ biến</button>
@@ -334,10 +331,64 @@
                                      </div>
                                  </div>
                              </div>
+                            <nav class="mobile-category">
+                                <ul class="mobile-category__list">
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link"> Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Mũ lưỡi trai - Nón kết thêu chữ Memorie phong cách Ulzzang form unisex nam nữ N01</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Áo thun tay lỡ SWE form rộng Unisex nam nữ phong cách Ulzzang </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="" class="mobile-category__link">Dép đi nhà tắm đúc nguyên khối chống trơn trượt - Dép đi trong nhà siêu êm</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+
                              <div class="home-product">
                                  <!-- khung sản phẩm -->
-                                 <div class="grid__row">
-                                     <div class="grid__column-2-4">
+                                 <div class="row sm-gutter ">
+                                     <div class="col l-2-4 m-4 c-6">
                                          <a class="home-product-item" href="#">
                                              <div class="home-product-item__img" style="background-image: url(https://vn-test-11.slatic.net/p/bda5c78116eab458aebc0c42199a2376.png_200x200Q100.jpg_.webp);"></div>
                                              <h4 class="home-product-item__name">Điện thoại POCO F3 (6GB/128GB | 8GB/256GB) - Hàng chính hãng DGW - Bảo hành 18 tháng - Trả góp 0%</h4>
@@ -373,13 +424,13 @@
                                              </div>
                                          </a>
                                      </div>
-                                     <div class="grid__column-2-4">
+                                     <div class="col l-2-4 m-4 c-6">
                                         <a class="home-product-item" href="#">
-                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/bbfe519eed82e09f22d2e4bbfe7e4c94);"></div>
-                                            <h4 class="home-product-item__name">[ Xả kho ] Áo Thun Tay Lỡ Unisex AW Siêu Chất</h4>
+                                            <div class="home-product-item__img" style="background-image: url(./assets/namvan.jpg);"></div>
+                                            <h4 class="home-product-item__name">Tấm thân nhỏ bé ❤️ [Sale kịch sàn]</h4>
                                             <div class="home-product-item__price">
-                                               <span class="home-product-item__price-old">7.990.000 ₫</span>
-                                               <span class="home-product-item__price-current">7.990.000 ₫</span>
+                                               <span class="home-product-item__price-old">Yêu nhiều người</span>
+                                               <span class="home-product-item__price-current">Chỉ yêu 1 người</span>
                                             </div>
                                             <div class="home-product-item__action">
                                                 <span class="home-product-item__like home-product-item__like--liked">
@@ -393,23 +444,23 @@
                                                    <i class="home-product-item__star--gold fas fa-star"></i>
                                                    <i class="home-product-item__star--gold fas fa-star"></i>
                                                 </div>
-                                                <span class="home-product-item__sold">88 Đã bán</span>
+                                                <span class="home-product-item__sold">0 Đã bán</span>
                                             </div>
                                             <div class="home-product-item__origin">
-                                                <span class="home-product-item__brand">Cá sấu</span>
-                                                <span class="home-product-item__origin-name">Việt Nam</span>
+                                                <span class="home-product-item__brand">Hàng hiếm</span>
+                                                <span class="home-product-item__origin-name">Vĩnh Phúc</span>
                                             </div>
                                             <div class="home-product-item__favourite">
                                                <i class="fas fa-check"></i>
                                                    <span>  Yêu thích</span>
                                             </div>
                                             <div class="home-product-item__sale-off">
-                                                <span class="home-product-item__sale-off-percent">10%</span>
+                                                <span class="home-product-item__sale-off-percent">100%</span>
                                                 <span class="home-product-item__sale-off-label">GIẢM</span>
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="grid__column-2-4">
+                                    <div class="col l-2-4 m-4 c-6">
                                         <a class="home-product-item" href="#">
                                             <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/63a0744a2796c72e6da55728bad3e151_xxhdpi);"></div>
                                             <h4 class="home-product-item__name">Điện thoại POCO F3 (6GB/128GB | 8GB/256GB) - Hàng chính hãng DGW - Bảo hành 18 tháng - Trả góp 0%</h4>
@@ -445,7 +496,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="grid__column-2-4">
+                                    <div class="col l-2-4 m-4 c-6">
                                         <a class="home-product-item" href="#">
                                             <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/51614c0066b805db5026754f8b48b517);"></div>
                                             <h4 class="home-product-item__name">Điện thoại POCO F3 (6GB/128GB | 8GB/256GB) - Hàng chính hãng DGW - Bảo hành 18 tháng - Trả góp 0%</h4>
@@ -481,7 +532,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="grid__column-2-4">
+                                    <div class="col l-2-4 m-4 c-6">
                                         <a class="home-product-item" href="#">
                                             <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/6c5f122c89bedc830b220a759d8f064c);"></div>
                                             <h4 class="home-product-item__name">Điện thoại POCO F3 (6GB/128GB | 8GB/256GB) - Hàng chính hãng DGW - Bảo hành 18 tháng - Trả góp 0%</h4>
@@ -565,9 +616,9 @@
               
         </div>
         <footer class="footer">
-               <div class="grid wide">
-                   <div class="grid__row">
-                    <div class="grid__column-2-4">
+               <div class="grid wide footer__content">
+                   <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
                         <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
                         <ul class="footer__list">
                             <li class="footer-item">
@@ -581,7 +632,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-4 c-6">
                         <h3 class="footer__heading">VỀ SHOPEE</h3>
                         <ul class="footer__list">
                             <li class="footer-item">
@@ -595,7 +646,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-4 c-6">
                         <h3 class="footer__heading">THEO DÕI CHÚNG TÔI TRÊN</h3>
                         <ul class="footer__list">
                             <li class="footer-item">
@@ -615,7 +666,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-4 c-6">
                         <h3 class="footer__heading">THANH TOÁN</h3>
                         <ul class="footer__list">
                             <li class="footer-item">
@@ -629,18 +680,18 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-8 c-6">
                         <h3 class="footer__heading">TẢI ỨNG DỤNG SHOPEE NGAY THÔI</h3>
                        <div class="footer__dowload" style="display: flex;">
                            <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/d91264e165ed6facc6178994d5afae79.png" alt="download qr" class="footer__download-qr">
                            <div class="footer__download-apps">
                                <a href="" class="footer__download-app-link">
 
-                                   <img src="./assets/iphone.png" alt="goole play" class="footer__download-app-img">
+                                   <img src="./assets/ggplay.png" alt="goole play" class="footer__download-app-img">
                                </a>
                                <a href="" class="footer__download-app-link">
 
-                                   <img src="./assets/ggplay.png" alt="appstore" class="footer__download-app-img">
+                                   <img src="./assets/iphone.png" alt="appstore" class="footer__download-app-img">
                                </a>
                                <a href="" class="footer__download-app-link">
 
@@ -780,4 +831,3 @@
     </div>
 </body>
 </html>
-
