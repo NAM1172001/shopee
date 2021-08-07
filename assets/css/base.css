@@ -126,7 +126,8 @@ position: relative;
     margin: 0 8px;
 }
 .header__mobile-search{
-    
+      padding: 0 12px;
+      display: none;
 }
 .header__mobile-search-icon{
     font-size: 2.6rem;
@@ -135,7 +136,13 @@ position: relative;
 .header__logo{
     width: 200px;
 }
-
+.header__logo-link{
+    display: block;
+    line-height: 0;
+}
+.header__search-ckeckbox:checked ~ .header__search{
+    display: flex;
+}
 .header__logo-img{
     width: 150px;
 }
@@ -156,6 +163,7 @@ position: relative;
     display: inline-block;
     padding: 0 12px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .header__cart-icon{
@@ -553,5 +561,5 @@ làm số trang */
 }
 .home-product__pagination{
     margin: 48px 0 32px;
-    
+    padding-left: 0;
 }
